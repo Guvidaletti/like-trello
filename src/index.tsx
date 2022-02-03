@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LikeTrello from './LikeTrello';
+import Manager from './Manager';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LikeTrello />
+    <Manager />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import LikeTrello from './LikeTrello';
+import Manager from './Manager';
 
 test('renders learn react link', () => {
-  render(<LikeTrello />);
+  render(<Manager />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
