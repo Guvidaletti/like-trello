@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Board Teste",
+    "etiquetas": [
+      {
+        "nome": "Etiqueta Vermelha",
+        "cor": "#eb4034"
+      },
+      {
+        "nome": "Etiqueta Laranja",
+        "cor": "#e87f0e"
+      }
+    ],
+    "raias": [
+      {
+        "posicao": 0,
+        "nome": "Raia 1",
+        "cartoes": []
+      }
+    ]
+  }
+]
