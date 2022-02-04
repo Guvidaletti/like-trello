@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Manager from './Manager';
+import { BrowserRouter } from 'react-router-dom';
+import Manager from './components/manager/Manager';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Manager />
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Manager />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

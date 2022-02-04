@@ -1,0 +1,33 @@
+@import './../../assets//styles/colors';
+$rootClassName: like-trello-manager;
+
+:export {
+  rootClassName: $rootClassName;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: $white;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: $black;
+    color: $white;
+  }
+}
+
+.#{$rootClassName}-content {
+  top: 50px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  max-height: calc(100% - 50px);
+  overflow-y: overlay;
+}

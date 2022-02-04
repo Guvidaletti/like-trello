@@ -1,0 +1,65 @@
+@import './../../assets/styles/colors';
+@import './../../assets/styles/constants';
+
+$rootClassName: home-page;
+
+:export {
+  rootClassName: $rootClassName;
+}
+
+.#{$rootClassName} {
+  display: flex;
+  flex-direction: column;
+
+  & > .#{$rootClassName}-titulo {
+    font-size: 25px;
+    font-weight: 600;
+    user-select: none;
+    padding: 4px;
+  }
+
+  .#{$rootClassName}-quadros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .#{$rootClassName}-quadro {
+      text-decoration: none;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // SE NAO TIVER
+      background-color: $white;
+      color: $black;
+
+      cursor: pointer;
+      transition: transform $transitionTime;
+
+      &:active {
+        transform: scale(0.95);
+      }
+
+      width: calc((100% / 3) - 8px);
+      @media screen and (max-width: $width-sm) {
+        width: calc((100% / 2) - 8px);
+      }
+      @media screen and (max-width: $width-xs) {
+        width: 100%;
+      }
+      height: 50px;
+      border-radius: 12px;
+      margin: 4px;
+      padding: 8px;
+
+      .#{$rootClassName}-titulo {
+        user-select: none;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    // .#{$rootClassName}-not-found {
+    // }
+  }
+}

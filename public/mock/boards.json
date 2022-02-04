@@ -1,6 +1,7 @@
 [
   {
     "nome": "Board Teste",
+    "background": "#148de3",
     "etiquetas": [
       {
         "nome": "Etiqueta Vermelha",
@@ -15,7 +16,74 @@
       {
         "posicao": 0,
         "nome": "Raia 1",
-        "cartoes": []
+        "cartoes": [
+          {
+            "nome": "Cartaozin",
+            "posicao": 0
+          }
+        ]
+      },
+      {
+        "posicao": 1,
+        "nome": "Raia 2",
+        "cartoes": [
+          {
+            "nome": "Cartaozin 1",
+            "posicao": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Board Teste 2",
+    "background": "https://img.freepik.com/free-vector/green-tones-gradient-background_23-2148380476.jpg?size=626&ext=jpg&ga=GA1.1.1586843445.1642291200",
+    "etiquetas": [
+      {
+        "nome": "Etiqueta Vermelha",
+        "cor": "#eb4034"
+      },
+      {
+        "nome": "Etiqueta Laranja",
+        "cor": "#e87f0e"
+      }
+    ],
+    "raias": [
+      {
+        "posicao": 0,
+        "nome": "Raia 1",
+        "cartoes": [
+          {
+            "nome": "Cartaozin",
+            "posicao": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Board Teste 3 né",
+    "background": "#FFFFFF",
+    "etiquetas": [
+      {
+        "nome": "Etiqueta Vermelha",
+        "cor": "#eb4034"
+      },
+      {
+        "nome": "Etiqueta Laranja",
+        "cor": "#e87f0e"
+      }
+    ],
+    "raias": [
+      {
+        "posicao": 0,
+        "nome": "Raia 1",
+        "cartoes": [
+          {
+            "nome": "Cartaozin",
+            "posicao": 0
+          }
+        ]
       }
     ]
   }
